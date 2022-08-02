@@ -14,23 +14,23 @@
     display: flex;
     justify-content: center;
     align-items:center;
-    padding-top:7%;
+    padding: top 15px;
     width: 100vh;
     height: 100%;
     cursor: default;
     user-select: none;
     background-image: radial-gradient(
-      ellipse 50% 55% at 50% 70%,
+      ellipse 60% 60% at 50% 50%,
       #7D55FF,
       transparent
     );
-    transform: translate(-50%, -40%);
-    letter-spacing: 3;
+    transform: translate(-50%, -30%);
+    letter-spacing: 2;
     left: 50%;
-    top: 35%;
+    top: 45%;
     font-family: "Clip";
     text-transform: uppercase;
-    font-size: 3.5em;
+    font-size: 3.0em;
     color: #ffe6ff;
     text-shadow: 0 0 0.9rem #ffe6ff, 0 0 3.5rem #8467D7,
       -0.2rem 0.1rem 1rem #7A5DC7, 0.2rem 0.1rem 1rem #ff65bd,
@@ -602,7 +602,7 @@
       
       .glitch::before {
         animation: paths 2s step-end infinite, opacity 2s step-end infinite,
-          font 4s step-end infinite, movement 5s step-end infinite;
+          font 4s step-end infinite, movement 2s step-end infinite;
       }
       
       .glitch::after {
@@ -683,12 +683,14 @@
 
 .container{
     text-align:left;
-        
+    /* padding-top: 100px; */
 }
 .container2{
   text-align:right;
-      
+  padding-top: 90px;
+  position:relative;
 }
+
 h2{
     color: 	#FBFFFF;
     font-size: 130%;
@@ -721,7 +723,7 @@ p{
   border-style: none;
   float:left;
   width: 25%;
-  padding: 0 10px;
+  padding: 20px 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   text-align: center;
@@ -752,7 +754,7 @@ p{
 }
 .r{
   text-align: right;
-  width: 95%;
+  width: 100%;
 }
 .card2{
   box-sizing: border-box;
